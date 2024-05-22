@@ -1,0 +1,15 @@
+{
+  "name": "verifica-ips",
+  "version": "1.0.0",
+  "description": "verifica e salva a quantia total de cada Estado brasileiro de uma lista de IPs em um .csv através da API geoiplookup e salva os resultados em um .csv",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "author": "Renato",
+  "license": "ISC"
+}
