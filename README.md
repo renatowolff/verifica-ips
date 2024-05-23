@@ -1,7 +1,11 @@
-# Verifica IPs
+# Verifica UF IPs
 
 ## Descrição
 Esta é uma aplicação simples que lê uma lista de IPs em uma planilha .CSV, verifica de qual Estado do Brasil o IP se refere e em um novo .CSV, insere a quantidade de IPs de cada Estado.
+
+## Problema
+Uma casa de aposta não tinha a informação geográfica de seus clientes no Brasil, não sabia de qual Estado seus clientes eram pois seu sistema fechado atual não informava o nome do Estado do cliente, somente o IP.
+A quantia única foram de aproximadamente 139 mil IPs.
 
 ## Tecnologias
 - Node.js
