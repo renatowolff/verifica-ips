@@ -26,7 +26,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 npm install
 
 ## Inicie a aplicação:
-- Tenha certeza que o arquivo lista-ips.csv foi alimentado com os IPs a serem verificados.
+- Tenha certeza que o arquivo lista-ips.csv foi alimentado com os IPs a serem verificados, aceitando tanto IPv4 como IPv6.
 - Em seu terminal, digite:
    ```sh
   npm run start
