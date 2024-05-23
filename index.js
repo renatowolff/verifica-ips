@@ -1,15 +1,15 @@
-import readFileSync from "fs";
-import delay from "./delay.js";
-import processIP from "./processIP.js";
+import fs from 'fs';
+import { delay } from "./delay.js";
+import { processIP } from "./routes.js";
 
 async function main() {
   const inputFile = "lista-ips.csv";
-  const outputFile = "resultado_ips.csv";
+  const outputFile = "resultado-ips.csv";
   const stateCount = {}; // Objeto para armazenar o número de IPs por estado
 
   // Ler o arquivo CSV
   try {
-    const data = readFileSync(inputFile, "utf8");
+    const data = fs.readFileSync(inputFile, "utf8");
     const lines = data.trim().split("\n");
 
     // Processar cada linha do CSV
