@@ -33,3 +33,8 @@ npm install
 
 Será verificado IP por IP com um certo delay adicionado, para respeitar o limite da API externa utilizada.
 No terminal será gerado o console de verificação e conclusão de cada IP.
+
+## Preview resultado
+![exemplo-resultado](https://github.com/renatowolff/verifica-uf-ips/assets/67716741/af95d3b7-625f-4717-bff8-0783dcaca628)
+
+
